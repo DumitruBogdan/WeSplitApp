@@ -21,7 +21,6 @@
 		0AD0633B27FECCE300A44AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD0634027FECCE300A44AE6 /* WeSplitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD0634627FECCE300A44AE6 /* WeSplitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AD0634827FECCE300A44AE6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				0AD0633827FECCDF00A44AE6 /* Shared */,
-				0AD0634727FECCE300A44AE6 /* macOS */,
 				0AD0634127FECCE300A44AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,14 +66,6 @@
 				0AD0634627FECCE300A44AE6 /* WeSplitApp.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0AD0634727FECCE300A44AE6 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				0AD0634827FECCE300A44AE6 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
